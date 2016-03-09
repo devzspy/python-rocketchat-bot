@@ -2,7 +2,7 @@
 rocket.chat python basic bot using dpp
 
 # dependancies
-`emerge -va pytjon-meteor`
+`emerge -va python-meteor`
 or
 `pip install python-meteor`
 
