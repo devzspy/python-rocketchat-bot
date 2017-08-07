@@ -121,7 +121,7 @@ class RocketChatBot():
     """
     def start(self):
         self.client.connect()
-        self.client.login(self.username, self.password, callback=self.cb)
+        self.client.login(self.username, self.password.encode('utf-8'), callback=self.cb)
 
         # let's yeld to background task
         while True:
