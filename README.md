@@ -12,6 +12,6 @@ def hello(bot, message):
     bot.sendMessage(message['rid'], "React from hello command")
 
 rocket = RocketChatBot('username', 'password')
-rocket.addPrefixHandler('hello', test)
+rocket.addPrefixHandler('hello', hello)
 rocket.start()
 ```
